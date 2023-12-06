@@ -30,3 +30,6 @@ jobs:
           registry: docker.io
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
+          push: true
+          tags: |
+            main-8aa14d5
