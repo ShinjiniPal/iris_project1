@@ -12,8 +12,7 @@ jobs:
 
     steps:
       - name: Set up Python
-        uses: actions/setup-python@v2
-        with:
+        uses: actions
           python-version: 3.11
 
       - name: Checkout code
