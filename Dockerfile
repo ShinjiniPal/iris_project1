@@ -21,4 +21,4 @@ RUN pip install gunicorn
 EXPOSE 5000
 
 # Use Gunicorn to run the Flask application
-ENTRYPOINT ["gunicorn", "second:app", "-b", "0.0.0.0:5000"]
+ENTRYPOINT ["gunicorn", "Irisfl:app", "-b", "0.0.0.0:5000"]
